@@ -1,0 +1,12 @@
+dist
+node_modules
+
+.rollup.cache
+*.tsbuildinfo
+npm-debug.log
+
+.DS_Store
+.idea
+.vscode
+
+.TODO
