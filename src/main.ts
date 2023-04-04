@@ -1,7 +1,5 @@
-import { component, useEffect } from "ivi";
-import { useReducer } from "ivi/state";
-import { htm } from "ivi/template";
-import { createRoot, updateRoot } from "ivi/root";
+import { createRoot, update, component, useEffect, useReducer } from "ivi";
+import { htm } from "@ivi/tpl";
 import { Action, ActionType, AppState, FileType } from "./state.js";
 import { Editor } from "./Editor.js";
 import { Preview } from "./Preview.js";
@@ -96,4 +94,4 @@ const App = component((c) => {
   };
 });
 
-updateRoot(createRoot(document.body), App());
+update(createRoot(document.body), App());

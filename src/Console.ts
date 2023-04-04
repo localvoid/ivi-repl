@@ -1,6 +1,5 @@
-import { component } from "ivi";
-import { strictEq } from "ivi/equal";
-import { htm } from "ivi/template";
+import { component, strictEq } from "ivi";
+import { htm } from "@ivi/tpl";
 import { ConsoleMessage } from "./state.js";
 
 export const Console = component<ConsoleMessage[]>(() => {

@@ -1,7 +1,5 @@
-import { component } from "ivi";
-import { createRoot, updateRoot } from "ivi/root";
-import { useState } from "ivi/state";
-import { htm } from "ivi/template";
+import { createRoot, update, component, useState } from "ivi";
+import { htm } from "@ivi/htm";
 
 const App = component((c) => {
   const [count, setCount] = useState(c, 0);
@@ -12,11 +10,12 @@ const App = component((c) => {
 
   return () => {
     return htm`
-      div.App
-        button @click=${onClick} 'Click Me'
-        div ${count()}
+      <div class="App">
+        <button @click=${onClick}>Click Me</button>
+        <div>${count()}</div>
+      </div>
     `;
   };
 });
 
-updateRoot(createRoot(document.body), App());
+update(createRoot(document.body), App());

@@ -1,7 +1,5 @@
-import { component, useEffect } from "ivi";
-import { htm } from "ivi/template";
-import { Dispatch } from "ivi/state";
-import { findDOMNode } from "ivi/dom";
+import { component, useEffect, type Dispatch, findDOMNode } from "ivi";
+import { htm } from "@ivi/tpl";
 import { EditorView, basicSetup } from "codemirror";
 import { ViewUpdate } from "@codemirror/view";
 import { javascript as jsExt } from "@codemirror/lang-javascript";

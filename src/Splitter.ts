@@ -1,6 +1,5 @@
-import { component, invalidate, useUnmount, VAny } from "ivi";
-import { findDOMNode } from "ivi/dom";
-import { htm } from "ivi/template";
+import { component, invalidate, useUnmount, VAny, findDOMNode } from "ivi";
+import { htm } from "@ivi/tpl";
 
 const OVERLAY = htm`div.SplitterOverlay`;
 
