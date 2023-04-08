@@ -7,19 +7,19 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "ivi": "^3.0.0-beta.2",
-    "@ivi/tpl": "^3.0.0-beta.2",
-    "@ivi/htm": "^3.0.0-beta.2",
-    "codemirror": "^6.0.1",
+    "@codemirror/lang-css": "^6.1.1",
+    "@codemirror/lang-html": "^6.4.3",
+    "@codemirror/lang-javascript": "^6.1.5",
     "@codemirror/state": "^6.2.0",
-    "@codemirror/view": "^6.9.2",
-    "@codemirror/lang-javascript": "^6.1.4",
-    "@codemirror/lang-html": "^6.4.2",
-    "@codemirror/lang-css": "^6.1.1"
+    "@codemirror/view": "^6.9.3",
+    "@ivi/htm": "^3.0.0",
+    "@ivi/tpl": "^3.0.0",
+    "codemirror": "^6.0.1",
+    "ivi": "^3.0.0"
   },
   "devDependencies": {
-    "typescript": "^5.0.3",
-    "vite": "^4.2.0",
-    "@ivi/rollup-plugin": "^3.0.0-beta.2"
+    "@ivi/vite-plugin": "^3.0.0",
+    "typescript": "^5.0.4",
+    "vite": "^4.2.1"
   }
 }

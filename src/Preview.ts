@@ -13,13 +13,13 @@ const previewHtml = (js: string, css: string, html: string) => `
   <script type="importmap">
   {
     "imports": {
-      "ivi": "https://cdn.jsdelivr.net/npm/ivi@3.0.0-beta.2/dist/index.js",
-      "ivi/template/client": "https://cdn.jsdelivr.net/npm/ivi@3.0.0-beta.2/dist/template/client.js",
-      "ivi/template/parser": "https://cdn.jsdelivr.net/npm/ivi@3.0.0-beta.2/dist/template/parser.js",
-      "@ivi/tpl": "https://cdn.jsdelivr.net/npm/@ivi/tpl@3.0.0-beta.2/dist/index.js",
-      "@ivi/htm": "https://cdn.jsdelivr.net/npm/@ivi/htm@3.0.0-beta.2/dist/index.js",
-      "@ivi/portal": "https://cdn.jsdelivr.net/npm/@ivi/portal@0.2/dist/index.js",
-      "@ivi/identity": "https://cdn.jsdelivr.net/npm/@ivi/identity@0.2/dist/index.js"
+      "ivi": "https://cdn.jsdelivr.net/npm/ivi@3.0.0/dist/index.js",
+      "ivi/template/client": "https://cdn.jsdelivr.net/npm/ivi@3.0.0/dist/template/client.js",
+      "ivi/template/parser": "https://cdn.jsdelivr.net/npm/ivi@3.0.0/dist/template/parser.js",
+      "@ivi/tpl": "https://cdn.jsdelivr.net/npm/@ivi/tpl@3.0.0/dist/index.js",
+      "@ivi/htm": "https://cdn.jsdelivr.net/npm/@ivi/htm@3.0.0/dist/index.js",
+      "@ivi/portal": "https://cdn.jsdelivr.net/npm/@ivi/portal@0.3/dist/index.js",
+      "@ivi/identity": "https://cdn.jsdelivr.net/npm/@ivi/identity@0.3/dist/index.js"
     }
   }
   </script>

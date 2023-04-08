@@ -27,10 +27,8 @@ const renderVSplitter = (
   b: VAny
 ) => htm`
   div.VSplitter
-    div.SplitterPane ~flex-basis=${pos + "%"}
-      ${a}
-    div.SplitterPane ~flex-basis=${100 - pos + "%"}
-      ${b}
+    div.SplitterPane ~flex-basis=${pos + "%"}       ${a}
+    div.SplitterPane ~flex-basis=${100 - pos + "%"} ${b}
     div.SplitterDivider
       ~top=${`calc(${pos}% - 8px)`}
       @pointerdown=${onPointerDown}
